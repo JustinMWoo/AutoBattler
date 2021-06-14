@@ -6,7 +6,8 @@ This repo contains the code used in a fully functioning single player autobattle
 
 Note: Models and animations are temporary for demonstration purposes and are not included for download.  
 
-## UI
+## UI  
+<!-- hover to show node contents on map, right click to see unit description/stats -->
 
 ## Gameplay Mechanics  
 <!-- tiers, max units, currency -->
@@ -18,7 +19,17 @@ Note: Models and animations are temporary for demonstration purposes and are not
 ## Combat  
 
 ### Bonuses (Tribes/Sets)
+<details>
+  <summary>Click to view implemented sets and tribes</summary>  
+  
+  ### Set 1  
+</details>
 
 ### Units
+<details>
+  <summary>Click to view implemented units</summary>  
+  
+  ### Unit 1  
+</details>
 
-### Triples
+### Tripling
