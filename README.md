@@ -19,7 +19,7 @@ Note: Models and animations are temporary for demonstration purposes and are not
 ## Combat  
 
 ### Bonuses (Tribes/Sets)
-Note: For demonstration purposes some tribes and sets may be disabled on units when showcasing other bonuses  
+Note: For demonstration purposes some tribes and sets may be disabled on units when showcasing other bonuses and some unit's stats may be changed  
 <details>
   <summary>Click to view implemented sets and tribes</summary>  
   
