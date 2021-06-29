@@ -46,6 +46,8 @@ Parameters that can be set include, the minimum/maximum number of nodes per leve
 </p>
 
 ### Shop 
+Shop events have a chance to spawn along paths when the map is generated. In a shop the player has access to more unit choices as well as the ability to increase their unit capacity and increase their player tier to gain access to more powerful units. Additionally, the player can refresh their shop at a cost of some currency to replace the untis that are available for purchase.  
+<img src="Readme/Shop.gif" width = "600">  
 
 ## Combat  
 
