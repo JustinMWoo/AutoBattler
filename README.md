@@ -56,7 +56,39 @@ Combat is split into several phases where multiple actions can occur. At the beg
 ### Bonuses (Tribes/Sets)
 Note: For demonstration purposes some tribes and sets may be disabled on units when showcasing other bonuses and some unit's stats may be changed  
 <details>
-  <summary>Click to view implemented sets and tribes</summary>  
+  <summary>Click to view implemented sets</summary>  
+  
+  ### Assassin  
+  Units with this set have a chance to critically strike for additional damage.  
+  <img src="Readme/Sets/Assassin.gif" width = "300">  
+  
+  ### Balance  
+  Units with this set gain damage for each unit to the left and defence for each unit to the right.  
+  <img src="Readme/Sets/Balance.gif" width = "300">  
+  
+  ### Berserker  
+  Units with this set gain damage based on their missing health.  
+  <img src="Readme/Sets/Berserker.gif" width = "300">  
+  
+  ### Chaos  
+  One chaos unit on the board has its attack replaced with a new one. This attack deals damage to the unit performing the attack based on a portion of its maximum life and then deals damage to the opponent's board in an 'x' pattern. 
+  <img src="Readme/Sets/Chaos.gif" width = "300"> 
+  
+  ### Knight  
+  Units with this set deflect a portion of the damage received by adjacent units, that are not part of this set, onto themselves.  
+  <img src="Readme/Sets/Knight.gif" width = "300">  
+  
+  ### Mage  
+  Mages gain mana at the beginning of their turn based on a portion of the maximum health of all enemies in the same column. Upon reaching a threshold of mana, their attack is replaced (for one turn) by a powerful attack that hits the entire enemy column and their mana is reset to 0.  
+  <img src="Readme/Sets/Mage.gif" width = "300">  
+  
+  ### Ranger  
+  Rangers deal more damage based on the number of tiles between them and the unit being struck. 
+  <img src="Readme/Sets/Ranger.gif" width = "300">  
+</details>
+
+<details>
+  <summary>Click to view implemented tribes</summary>  
   
   ### Set 1  
 </details>
