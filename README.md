@@ -58,31 +58,31 @@ Note: For demonstration purposes some tribes and sets may be disabled on units w
 <details>
   <summary>Click to view implemented sets</summary>  
   
-  ### Assassin  
+  + **Assassin**    
   Units with this set have a chance to critically strike for additional damage.  
   <img src="Readme/Sets/Assassin.gif" width = "300">  
   
-  ### Balance  
-  Units with this set gain damage for each unit to the left and defence for each unit to the right.  
+  + **Balance**  
+  Units with this set gain damage for each unit to the left and defence for each unit to the right.
   <img src="Readme/Sets/Balance.gif" width = "300">  
   
-  ### Berserker  
+  + **Berserker**  
   Units with this set gain damage based on their missing health.  
   <img src="Readme/Sets/Berserker.gif" width = "300">  
   
-  ### Chaos  
+  + **Chaos**  
   One chaos unit on the board has its attack replaced with a new one. This attack deals damage to the unit performing the attack based on a portion of its maximum life and then deals damage to the opponent's board in an 'x' pattern. 
   <img src="Readme/Sets/Chaos.gif" width = "300"> 
   
-  ### Knight  
+  + **Knight**  
   Units with this set deflect a portion of the damage received by adjacent units, that are not part of this set, onto themselves.  
   <img src="Readme/Sets/Knight.gif" width = "300">  
   
-  ### Mage  
+  + **Mage**  
   Mages gain mana at the beginning of their turn based on a portion of the maximum health of all enemies in the same column. Upon reaching a threshold of mana, their attack is replaced (for one turn) by a powerful attack that hits the entire enemy column and their mana is reset to 0.  
   <img src="Readme/Sets/Mage.gif" width = "300">  
   
-  ### Ranger  
+  + **Ranger**  
   Rangers deal more damage based on the number of tiles between them and the unit being struck. 
   <img src="Readme/Sets/Ranger.gif" width = "300">  
 </details>
@@ -90,31 +90,31 @@ Note: For demonstration purposes some tribes and sets may be disabled on units w
 <details>
   <summary>Click to view implemented tribes</summary>  
   
-  ### Beast  
+  + **Beast**  
   All units have a chance to cause bleeding, dealing damage to the enemy on the start of their next few turns.  
   <img src="Readme/Tribes/Beast.gif" width = "300">  
   
-  ### Elemental  
+  + **Elemental**  
   Elementals split on death into multiple weaker versions of the same unit.  
   <img src="Readme/Tribes/Elemental.gif" width = "300">  
   
-  ### Human  
+  + **Human**  
   All units gain a small bonus to each stat at the beginning of combat.  
   <img src="Readme/Tribes/Human.gif" width = "300">  
   
-  ### Orc  
+  + **Orc**  
   All units gain maximum health at the beginning of combat and heal some health at the end of their turn.   
   <img src="Readme/Tribes/Orc.gif" width = "300">  
   
-  ### Otherworldly  
+  + **Otherworldly**  
   When killing enemy units, otherwordly units gain a portion of the slain enemy's stats.   
   <img src="Readme/Tribes/Otherworldly.gif" width = "300">  
   
-  ### Undead  
+  + **Undead**  
   At the start of each cycle, all enemies lose armor.  
   <img src="Readme/Tribes/Undead.gif" width = "300">  
   
-  ### Void  
+  + **Void**  
   All units have a chance to stun when attacking, removing the enemies next turn.   
   <img src="Readme/Tribes/Void.gif" width = "300">  
 </details>
