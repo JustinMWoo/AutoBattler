@@ -50,6 +50,8 @@ Shop events have a chance to spawn along paths when the map is generated. In a s
 <img src="Readme/Shop.gif" width = "600">  
 
 ## Combat  
+Combat is split into several phases where multiple actions can occur. At the beginning of combat bonuses are set up depending on the number of units in each set and tribe for each team. Then a cycle begins in which units are organized by their speed stat (with randomization if multiple units have the same speed) and each unit gets their turn. For each unit in the cycle they have a turn start, attack and turn end. If a unit's turn ends and there are no units on one of the boards, combat ends, otherwise another cycle begins. Events may subscribe to any event in combat to make it easy to create new units and bonuses that interact at certain points in the battle. Additionally, units have attack and defence modifiers that interact with how they deal and recieve damage.  
+<img src="Readme/Combat.gif" width = "600">  
 
 ### Bonuses (Tribes/Sets)
 Note: For demonstration purposes some tribes and sets may be disabled on units when showcasing other bonuses and some unit's stats may be changed  
@@ -67,3 +69,5 @@ Note: For demonstration purposes some tribes and sets may be disabled on units w
 </details>
 
 ### Tripling
+If three of the same units are on the board at the same time (outside of combat) they will merge into one, leveled up, stronger version of the unit. This may occur twice for the same unit allowing said unit to reach level 3.
+<img src="Readme/Tripling.gif" width = "600"> 
