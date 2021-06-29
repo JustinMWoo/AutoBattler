@@ -90,7 +90,33 @@ Note: For demonstration purposes some tribes and sets may be disabled on units w
 <details>
   <summary>Click to view implemented tribes</summary>  
   
-  ### Set 1  
+  ### Beast  
+  All units have a chance to cause bleeding, dealing damage to the enemy on the start of their next few turns.  
+  <img src="Readme/Tribes/Beast.gif" width = "300">  
+  
+  ### Elemental  
+  Elementals split on death into multiple weaker versions of the same unit.  
+  <img src="Readme/Tribes/Elemental.gif" width = "300">  
+  
+  ### Human  
+  All units gain a small bonus to each stat at the beginning of combat.  
+  <img src="Readme/Tribes/Human.gif" width = "300">  
+  
+  ### Orc  
+  All units gain maximum health at the beginning of combat and heal some health at the end of their turn.   
+  <img src="Readme/Tribes/Orc.gif" width = "300">  
+  
+  ### Otherworldly  
+  When killing enemy units, otherwordly units gain a portion of the slain enemy's stats.   
+  <img src="Readme/Tribes/Otherworldly.gif" width = "300">  
+  
+  ### Undead  
+  At the start of each cycle, all enemies lose armor.  
+  <img src="Readme/Tribes/Undead.gif" width = "300">  
+  
+  ### Void  
+  All units have a chance to stun when attacking, removing the enemies next turn.   
+  <img src="Readme/Tribes/Void.gif" width = "300">  
 </details>
 
 ### Units
