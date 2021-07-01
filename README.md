@@ -122,8 +122,7 @@ Note: For demonstration purposes some tribes and sets may be disabled on units w
 ### Units
 <details>
   <summary>Click to view implemented units</summary>  
-  
-  ### Unit 1  
+  **To be finished**
 </details>
 
 ### Tripling
