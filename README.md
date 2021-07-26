@@ -63,7 +63,7 @@ Shop events have a chance to spawn along paths when the map is generated. In a s
 <img src="Readme/Shop.gif" width = "600">  
 
 ## Combat  
-Combat is split into several phases where multiple actions can occur. At the beginning of combat bonuses are set up depending on the number of units in each set and tribe for each team. Then a cycle begins in which units are organized by their speed stat (with randomization if multiple units have the same speed) and each unit gets their turn. For each unit in the cycle they have a turn start, attack and turn end. If a unit's turn ends and there are no units on one of the boards, combat ends, otherwise another cycle begins. Events may subscribe to any event in combat to make it easy to create new units and bonuses that interact at certain points in the battle. Additionally, units have attack and defence modifiers that interact with how they deal and recieve damage.  
+Combat is split into several phases where multiple actions can occur. At the beginning of combat, bonuses are set up depending on the number of units in each set and tribe for each team. Then a cycle begins in which units are organized by their speed stat (with randomization if multiple units have the same speed) and each unit gets their turn. For each unit in the cycle they have a turn start, attack and turn end. If a unit's turn ends and there are no units on one of the boards, combat ends, otherwise another cycle begins. Events may subscribe to any event in combat to make it easy to create new units and bonuses that interact at certain points in the battle. Additionally, units have attack and defence modifiers that interact with how they deal and recieve damage.  
 <img src="Readme/Combat.gif" width = "600">  
 
 ### Bonuses (Tribes/Sets)
@@ -76,7 +76,7 @@ Note: For demonstration purposes some tribes and sets may be disabled on units w
   <img src="Readme/Sets/Assassin.gif">  
   
   + **Balance**  
-  Units with this set gain damage for each unit to the left and defence for each unit to the right.
+  Units with this set gain damage for each unit to the left and defence for each unit to the right at the beginning of combat.
   <img src="Readme/Sets/Balance.gif">  
   
   + **Berserker**  
