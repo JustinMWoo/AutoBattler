@@ -25,9 +25,11 @@ Players are restricted in the number of units they can have on the board at one 
 **Bonuses**  
 Bonuses (tribes and sets) that currently have one or more memeber are shown on the left of the screen. The UI is updated as units are added and removed from the board when out of combat to show which bonuses are active.  
 <img src="Readme/Bonuses_UI.gif" width = "600">  
+
 **Map**  
 The map can be opened using the button on screen. When the map is active events can be hovered over to see details about them. Combat events will show the sets and tribes as well as the number of those types of units that the computer will have on their board if that path is chosen.  
 <img src="Readme/Map_UI.gif" width = "600">  
+
 **Unit**  
 Information about a unit can be seen by right clicking on it. The name of the unit along with it's current level is shown at the top of the display (level is shown with the number of stars). A brief description is also displayed with the stats of the unit on the right side. Additionally the unit's set and tribe is shown on the bottom and can be hovered over to display additional information about the bonus provided.  
 <img src="Readme/Unit_UI.gif" width = "600">  
