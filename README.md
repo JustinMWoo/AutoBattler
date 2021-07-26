@@ -36,6 +36,14 @@ Information about a unit can be seen by right clicking on it. The name of the un
 The map is randomly generated at the start of each playthrough and follows a series of rules to determine the layout. Each path is guarenteed to have a path to the end node. Nodes each contain an event that is also randomly determined, with the chance of that event spawning being tied to a weight value of the node type.  
 <details>
   <summary>Click to view a detailed explanation of how the map is generated</summary>  
+  Each node contains a reference to the node on it's right and left on the display as well as a list of nodes reachable from the current node.
+  Steps to generate a map:  
+  1. A node is first created for the entrance of the map (the first level of the layout)  
+  2. The following level is created with the minimum number of nodes allowed on a level (determined by the user). This is to provide the player with a number of choices to begin with.  
+  3. For generating the remaining levels of the map each node on the current level is randomly chosen to be "split" from or "merged" from and the number of new nodes to be generated is set to be the number of nodes in the current level for the starting point.  
+    a) Split:  
+       The number of nodes to be created is randomly generated between one and the maximum number of nodes allowed in a split (determined by the user). New nodes are generated for the next level until either the randomly generated number is reached or number of new nodes to be generated reaches the maximum number of allowed nodes in a level (also determined by the user). The list of nodes that are reachable from the current node as well as the left and right variables of the newly generated nodes are set appropriately.
+    b) Merge:  
   
 </details>
 Parameters that can be set include, the minimum/maximum number of nodes per level, the maximum of nodes that can be the destination of one node (number of forward connections) and the number of levels (nodes in a path from start to end).  
