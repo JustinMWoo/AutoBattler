@@ -51,7 +51,7 @@ The map is randomly generated at the start of each playthrough and follows a ser
   4. After generation of all of the nodes the left and right pointers are set for each node using the current level.  
   5. The final node and level is generated and all of the nodes in the previous level have the reference to the next node set to this final node.  
 </details>
-Parameters that can be set include, the minimum/maximum number of nodes per level, the maximum of nodes that can be the destination of one node (number of forward connections) and the number of levels (nodes in a path from start to end).  
+Parameters that can be set for generating the map include, the minimum/maximum number of nodes per level, the maximum of nodes that can be the destination of one node (number of forward connections) and the number of levels (nodes in a path from start to end).  
 <p float="left">
   <img src="Readme/Map/map_1.png" width = "250"> 
   <img src="Readme/Map/map_2.png" width = "250"> 
