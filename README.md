@@ -5,20 +5,42 @@ This repo contains the code used in a fully functioning single player autobattle
 <!-- full gameplay demonstration video -->
 
 Note: I do not own the models and animations shown in the gifs. They are temporary for demonstration purposes and are not included for download.  
+## Table of Contents  
+* [Gameplay Mechanics](#gameplay)
+  * [Currency](#currency)   
+  * [Tiers](#tiers)  
+  * [Unit Capacity](#unit-capacity)
+* [UI](#ui)
+* [Map](#map)
+* [Shop](#shop)
+* [Combat](#combat)  
+  * [Bonuses](#bonuses)
+  * [Units](#units)
+  * [Tripling](#tripling)
+
+<a name="gameplay"/>  
 
 ## Gameplay Mechanics  
 <!-- tiers, max units, currency -->
 Units can be purchased between combat events and reorganized freely on the board. Units will automatically position themselves towards the front row and towards the middle column within that front row.  
 <img src="Readme/Board.gif" width = "600">  
 
+<a name="currency"/>  
+
 ### Currency  
 Currency can be used to purchase units and multiple other upgrades in the shop. Additional currency can be acquired from being victorious in combat events on the map.
+
+<a name="tiers"/>  
 
 ### Tiers  
 Units are sorted into tiers with the player able to purchase units from their player tier and below. Additional player tiers can be purchased from the shop allowing more powerful units to be available from that point forward.
 
+<a name="unit-capacity"/>  
+
 ### Unit Capacity  
 Players are restricted in the number of units they can have on the board at one time. Additional capacity can be purchased from the shop and capacity will also increase when upgrading the player's tier.
+
+<a name="ui"/>  
 
 ## UI  
 <!-- hover to show node contents on map, right click to see unit description/stats -->
@@ -33,6 +55,8 @@ The map can be opened using the button on screen. When the map is active events 
 **Unit**  
 Information about a unit can be seen by right clicking on it. The name of the unit along with it's current level is shown at the top of the display (level is shown with the number of stars). A brief description is also displayed with the stats of the unit on the right side. Additionally the unit's set and tribe is shown on the bottom and can be hovered over to display additional information about the bonus provided.  
 <img src="Readme/Unit_UI.gif" width = "600">  
+
+<a name="map"/>  
 
 ## Map  
 The map is randomly generated at the start of each playthrough and follows a series of rules to determine the layout. Each path is guarenteed to be able to reach the final boss node. Each node contains an event that is also randomly determined, with the chance of that event spawning being tied to a weight value of the node type.  
@@ -58,13 +82,19 @@ Parameters that can be set for generating the map include, the minimum/maximum n
   <img src="Readme/Map/map_3.png" width = "250">
 </p>
 
-### Shop 
+<a name="shop"/>  
+
+## Shop 
 Shop events have a chance to spawn along paths when the map is generated. In a shop the player has access to more unit choices as well as the ability to increase their unit capacity and increase their player tier to gain access to more powerful units. Additionally, the player can refresh their shop at a cost of some currency to replace the untis that are available for purchase.  
 <img src="Readme/Shop.gif" width = "600">  
+
+<a name="combat"/>  
 
 ## Combat  
 Combat is split into several phases where multiple actions can occur. At the beginning of combat, bonuses are set up depending on the number of units in each set and tribe for each team. Then a cycle begins in which units are organized by their speed stat (with randomization if multiple units have the same speed) and each unit gets their turn. For each unit in the cycle they have a turn start, attack and turn end. If a unit's turn ends and there are no units on one of the boards, combat ends, otherwise another cycle begins. Events may subscribe to any event in combat to make it easy to create new units and bonuses that interact at certain points in the battle. Additionally, units have attack and defence modifiers that interact with how they deal and recieve damage.  
 <img src="Readme/Combat.gif" width = "600">  
+
+<a name="bonuses"/>  
 
 ### Bonuses (Tribes/Sets)
 Note: For demonstration purposes some tribes and sets may be disabled on units when showcasing other bonuses and some unit's stats may be changed  
@@ -132,11 +162,15 @@ Note: For demonstration purposes some tribes and sets may be disabled on units w
   <img src="Readme/Tribes/Void.gif">  
 </details>
 
+<a name="units"/>  
+
 ### Units
 <details>
   <summary>Click to view implemented units</summary>  
   <b>Section to be finished</b>
 </details>
+
+<a name="tripling"/>  
 
 ### Tripling
 If three of the same units are on the board at the same time (outside of combat) they will merge into one, leveled up, stronger version of the unit. This may occur twice for the same unit allowing said unit to reach level 3.
