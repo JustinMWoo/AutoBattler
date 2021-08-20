@@ -59,7 +59,7 @@ Information about a unit can be seen by right clicking on it. The name of the un
 <a name="map"/>  
 
 ## Map  
-The map is randomly generated at the start of each playthrough and follows a series of rules to determine the layout. Each path is guarenteed to be able to reach the final boss node. Each node contains an event that is also randomly determined, with the chance of that event spawning being tied to a weight value of the node type.  
+The map is randomly generated at the start of each playthrough and follows a series of rules to determine the layout. Each path is guaranteed to be able to reach the final boss node. Each node contains an event that is also randomly determined, with the chance of that event spawning being tied to a weight value of the node type.  
 <details>
   <summary>Click to view a detailed explanation of how the map is generated</summary>  
   Each node contains a reference to the node on it's right and left on the display as well as a list of nodes reachable from the current node.
